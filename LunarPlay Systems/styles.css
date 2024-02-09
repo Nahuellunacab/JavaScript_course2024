@@ -1,0 +1,138 @@
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif; /* Fuente predeterminada */
+    margin: 0; /* Elimina el margen predeterminado */
+    padding: 0; /* Elimina el relleno predeterminado */
+    background-color: #f0f0f0; /* Color de fondo */
+}
+
+/* Estilos para el encabezado */
+header {
+    background-image: url('Imagenes/fotoPresentacion.jpg');
+    background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
+    background-position: center; /* Centra la imagen */
+    background-color: #333; /* Color de fondo del encabezado */
+    color: #fff; /* Color del texto */
+    padding: 20px; /* Espaciado interno */
+}
+
+/* Estilos para la lista desplegable */
+.submenu {
+    background-image: url('ruta/a/la/imagen.jpg');
+    background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
+    background-position: center; /* Centra la imagen */
+    background-color: #333; /* Color de fondo de la lista desplegable */
+    padding: 10px; /* Espaciado interno */
+}
+
+/* Inicio*/
+#inicio{
+    text-align: center;
+    background-color: #333; /* Cambia el fondo a gris oscuro */
+    padding: 20px; /* Añade espacio interno */
+}
+
+header h1 {
+    margin: 0; /* Elimina el margen superior */
+}
+
+/* centrar el titulo de la pagina */
+#centrado {
+    text-align: center;
+}
+
+/* Estilos para la navegación */
+nav ul {
+    list-style-type: none; /* Elimina los marcadores de lista */
+    padding: 0; /* Elimina el relleno predeterminado */
+}
+
+nav ul li {
+    display: inline; /* Muestra los elementos de la lista en línea */
+    margin-right: 20px; /* Espaciado entre elementos */
+}
+
+nav ul li a {
+    color: #fff; /* Color del texto del enlace */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+}
+
+/* Estilos para el contenido principal */
+main {
+    padding: 20px; /* Espaciado interno */
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333; /* Color de fondo del pie de página */
+    color: #fff; /* Color del texto */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Alineación del texto al centro */
+}
+
+/* Estilos para la navegación */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; /* Alinea los elementos al centro */
+}
+
+nav ul li {
+    display: inline-block; /* Cambia a inline-block para controlar el espaciado */
+    margin-right: 20px;
+    position: relative; /* Para la posición absoluta del submenu */
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilos para la lista desplegable */
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    padding: 10px;
+    left: 0;
+    top: 100%; /* Posiciona el submenu debajo del elemento padre */
+}
+
+nav ul li:hover .submenu {
+    display: block; /* Muestra el submenu al pasar el ratón */
+}
+
+.submenu li {
+    display: block;
+    margin: 10px 0;
+}
+
+.submenu li a {
+    color: #fff;
+}
+
+/* Estilo para los botones de contacto*/
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para el contenedor de las imágenes */
+#galeria {
+    text-align: center; /* Alinea las imágenes horizontalmente */
+}
+
+/* Estilo para las imágenes */
+#galeria img {
+    width: 30%; /* Ajusta el ancho de las imágenes */
+    margin: 0 10px; /* Añade margen horizontal entre las imágenes */
+}

@@ -9,23 +9,55 @@
 </head>
 <body>
     <header>
-        <h1>LUNARPLAY SYSTEMS</h1>
-        <nav>
+        <h1 id="centrado">LUNARPLAY SYSTEMS</h1>
+        <nav id="listaPrincipal">
             <ul>
                 <li><a href="#">Inicio</a></li>
-                <li><a href="#">Acerca de</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li><a href="#inicio">Acerca de</a></li>
+                <li>
+                    <a href="#contacto">Contacto</a>
+                    <ul class="submenu">
+                        <li><a href="https://www.instagram.com/nahuueluna10/" target="_blank">Instagram</a></li>
+                        <li><a href="https://twitter.com/NLunacab" target="_blank">Twitter</a></li>
+                        <li><a href="https://www.linkedin.com/in/nahuel-luna/" target="_blank">Linkedin</a></li>
+                        <li><a href="https://github.com/Nahuellunacab" target="_blank">GitHub</a></li>
+                    </ul>
+                </li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <h2>Contenido principal</h2>
-        <p>Este es el contenido principal de la página.</p>
+        <section id="inicio">
+            <h2>Inicio</h2>
+            <div id="descripcion">
+                <img src="Imagenes/nahuelfrente.jpg" alt="Foto de perfil">
+                <p>¡Hola! Soy Nahuel Luna. Bienvenido/a a LunarPlay Systems. Está es una pagina personal diseñada para mostrar como es mi perfil y en que
+                    se basa mi vida.</p>
+            </div>
+            <div id="galeria">
+                <img src="Imagenes/Futbol.jpg" alt="Foto 1">
+                <img src="Imagenes/familia.jpg" alt="Foto 2">
+                <img src="Imagenes/futbol 2.jpg" alt="Foto 3">
+                <!-- Agrega más imágenes según necesites -->
+            </div>
+        </section>
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Aquí puedes encontrar nuestra información de contacto.</p>
+        <div class="botones">
+                <a class="boton" href="https://www.instagram.com/nahuueluna10/" target="_blank">Instagram</a>
+                <a class="boton" href="https://twitter.com/NLunacab" target="_blank">Twitter</a>
+                <a class="boton" href="https://www.linkedin.com/in/nahuel-luna/" target="_blank">Linkedin</a>
+                <a class="boton" href="https://github.com/Nahuellunacab" target="_blank">GitHub</a>
+        </div>
+    </section>
+        
+
     </main>
 
     <footer>
-        <p>Pie de página &copy; 2024</p>
+        <p>Sin limites &copy; 2024</p>
     </footer>
 </body>
 </html>
