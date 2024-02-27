@@ -18,44 +18,48 @@ if (opcion1 == 1) {
     }
     
 //-----------------------------------------------------Segunda parte de elección de opcion2----------------------------------------------------------------------------------------------------------------------------------
-    if (opcion2 == 1){
-        let valor1 = 0;
-        valor1 = cargarDato("Lunes");
-        alert("La cantidad de kilometros del dia Lunes es de " + valor1);
-    }
-    else if (opcion2 == 2){
-        let valor2 = 0;
-        valor2 = cargarDato("Martes");
-        alert("La cantidad de kilometros del dia Martes es de " + valor2);
-    }   
-    else if (opcion2 == 3){
-        let valor3 = 0;
-        valor3 = cargarDato("Miercoles");
-        alert("La cantidad de kilometros del dia Miercoles es de " + valor3);
-    }
-    else if (opcion2 == 4){
-        let valor4 = 0;
-        valor4 = cargarDato("Jueves");
-        alert("La cantidad de kilometros del dia Jueves es de " + valor4);
-    }
-    else if (opcion2 == 5){
-        let valor5 = 0;
-        valor5 = cargarDato("Viernes");
-        alert("La cantidad de kilometros del dia Viernes es de " + valor5);
-    }
-    else if (opcion2 == 6){
-        let valor6 = 0;
-        valor6 = cargarDato("Sabado");
-        alert("La cantidad de kilometros del dia Sabado es de " + valor6);
-    }
-    else if (opcion2 == 7){
-        let valor7 = 0;
-        valor7 = cargarDato("Domingo");
-        alert("La cantidad de kilometros del dia domingo es de " + valor7);
+    switch(opcion2){
+        case 1:
+            let valor1 = 0;
+            valor1 = cargarDato("Lunes");
+            alert("La cantidad de kilometros del dia Lunes es de " + valor1);
+            break;
+        case 2:
+            let valor2 = 0;
+            valor2 = cargarDato("Martes");
+            alert("La cantidad de kilometros del dia Martes es de " + valor2);
+            break;
+        case 3:
+            let valor3 = 0;
+            valor3 = cargarDato("Miercoles");
+            alert("La cantidad de kilometros del dia Miercoles es de " + valor3);
+            break;
+        case 4:
+            let valor4 = 0;
+            valor4 = cargarDato("Jueves");
+            alert("La cantidad de kilometros del dia Jueves es de " + valor4);
+            break;
+        case 5:
+            let valor5 = 0;
+            valor5 = cargarDato("Viernes");
+            alert("La cantidad de kilometros del dia Viernes es de " + valor5);
+            break;
+        case 6:
+            let valor6 = 0;
+            valor6 = cargarDato("Sabado");
+            alert("La cantidad de kilometros del dia Sabado es de " + valor6);
+            break;
+        case 7:
+            let valor7 = 0;
+            valor7 = cargarDato("Domingo");
+            alert("La cantidad de kilometros del dia domingo es de " + valor7);
+            break;
     }
 }
+
 else if (opcion1 == 2){
     alert("La plataforma funciona de la siguiente manera:\n Usted debe seleccionar el día que desea realizar la carga de datos y luego usted podrá ver estadisticas de su entrenamiento semanal en base a los recorridos realizados.");
+
 }
 
 //----------------------------------------------------------------------Funciones-----------------------------------------------------------------------------------------------------------------------------------------------
